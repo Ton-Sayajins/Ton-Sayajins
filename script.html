@@ -1,0 +1,5 @@
+document.querySelectorAll('.icon-box').forEach(function(box) {
+    box.addEventListener('click', function() {
+        alert('Du hast ' + this.querySelector('p').textContent + ' geklickt!');
+    });
+});
